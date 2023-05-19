@@ -1,0 +1,63 @@
+
+
+
+ 
+/************************************************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6,th,b,strong,dt{
+    font-weight: 500;
+}
+
+.feed_article{
+    background-color: #e4e4fb;
+    border: 0.0625rem solid #75d3ff;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.feed_article__title{
+    font-size: 1.4rem;
+    margin: 0 0 0.3125rem 0;
+
+}
+.feed_article__pubdate{
+    margin: 0 0 0.75rem 0;
+    color: black;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.feed_article__description{
+    color: #000000;
+    font-size: 1.15rem;
+  
+}
+
+.feed_article__read{
+    background-color: #079cf6;
+    color: #000000;
+    font-size: 1.15rem;
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.3125rem;
+    text-decoration: none;
+    box-shadow: 0rem 0.5rem 1rem blue;
+}
+.feed_article__read:hover{
+    background-color: #067ec9;
+    transition:  background-color 0.3s;
+    transform: scale(1, 1.2);
+}
+     
+
+
